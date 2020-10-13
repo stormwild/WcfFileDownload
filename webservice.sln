@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "FileTransferService", "FileTransferService\", "{18EF2C79-8574-4DEA-8D00-A8DEAD29A6A4}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_52534"
+		Debug.AspNetCompiler.PhysicalPath = "FileTransferService\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52534\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_52534"
+		Release.AspNetCompiler.PhysicalPath = "FileTransferService\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52534\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "52534"
+		SlnRelativePath = "FileTransferService\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileTransferWeb", "FileTransferWeb\FileTransferWeb.csproj", "{27C0D45F-DD72-4653-8F7B-F0482E8740D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18EF2C79-8574-4DEA-8D00-A8DEAD29A6A4}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{18EF2C79-8574-4DEA-8D00-A8DEAD29A6A4}.Debug|.NET.Build.0 = Debug|Any CPU
+		{18EF2C79-8574-4DEA-8D00-A8DEAD29A6A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18EF2C79-8574-4DEA-8D00-A8DEAD29A6A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18EF2C79-8574-4DEA-8D00-A8DEAD29A6A4}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{18EF2C79-8574-4DEA-8D00-A8DEAD29A6A4}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{18EF2C79-8574-4DEA-8D00-A8DEAD29A6A4}.Release|.NET.ActiveCfg = Debug|Any CPU
+		{18EF2C79-8574-4DEA-8D00-A8DEAD29A6A4}.Release|.NET.Build.0 = Debug|Any CPU
+		{18EF2C79-8574-4DEA-8D00-A8DEAD29A6A4}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{18EF2C79-8574-4DEA-8D00-A8DEAD29A6A4}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{18EF2C79-8574-4DEA-8D00-A8DEAD29A6A4}.Release|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{18EF2C79-8574-4DEA-8D00-A8DEAD29A6A4}.Release|Mixed Platforms.Build.0 = Debug|Any CPU
+		{27C0D45F-DD72-4653-8F7B-F0482E8740D7}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{27C0D45F-DD72-4653-8F7B-F0482E8740D7}.Debug|.NET.Build.0 = Debug|Any CPU
+		{27C0D45F-DD72-4653-8F7B-F0482E8740D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27C0D45F-DD72-4653-8F7B-F0482E8740D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27C0D45F-DD72-4653-8F7B-F0482E8740D7}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{27C0D45F-DD72-4653-8F7B-F0482E8740D7}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{27C0D45F-DD72-4653-8F7B-F0482E8740D7}.Release|.NET.ActiveCfg = Release|Any CPU
+		{27C0D45F-DD72-4653-8F7B-F0482E8740D7}.Release|.NET.Build.0 = Release|Any CPU
+		{27C0D45F-DD72-4653-8F7B-F0482E8740D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27C0D45F-DD72-4653-8F7B-F0482E8740D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27C0D45F-DD72-4653-8F7B-F0482E8740D7}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{27C0D45F-DD72-4653-8F7B-F0482E8740D7}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {531D9C25-4809-444C-80A6-50CB52CFE5D5}
+	EndGlobalSection
+EndGlobal
