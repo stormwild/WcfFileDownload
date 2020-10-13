@@ -26,6 +26,14 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "FileTransferService", "File
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileTransferWeb", "FileTransferWeb\FileTransferWeb.csproj", "{27C0D45F-DD72-4653-8F7B-F0482E8740D7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{18EF2C79-8574-4DEA-8D00-A8DEAD29A6A4} = {18EF2C79-8574-4DEA-8D00-A8DEAD29A6A4}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileTransferConsole", "FileTransferConsole\FileTransferConsole.csproj", "{BBA21BD1-389A-45F5-BEEB-8A5873F3CE5E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{18EF2C79-8574-4DEA-8D00-A8DEAD29A6A4} = {18EF2C79-8574-4DEA-8D00-A8DEAD29A6A4}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +69,18 @@ Global
 		{27C0D45F-DD72-4653-8F7B-F0482E8740D7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{27C0D45F-DD72-4653-8F7B-F0482E8740D7}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{27C0D45F-DD72-4653-8F7B-F0482E8740D7}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{BBA21BD1-389A-45F5-BEEB-8A5873F3CE5E}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{BBA21BD1-389A-45F5-BEEB-8A5873F3CE5E}.Debug|.NET.Build.0 = Debug|Any CPU
+		{BBA21BD1-389A-45F5-BEEB-8A5873F3CE5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBA21BD1-389A-45F5-BEEB-8A5873F3CE5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBA21BD1-389A-45F5-BEEB-8A5873F3CE5E}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{BBA21BD1-389A-45F5-BEEB-8A5873F3CE5E}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{BBA21BD1-389A-45F5-BEEB-8A5873F3CE5E}.Release|.NET.ActiveCfg = Release|Any CPU
+		{BBA21BD1-389A-45F5-BEEB-8A5873F3CE5E}.Release|.NET.Build.0 = Release|Any CPU
+		{BBA21BD1-389A-45F5-BEEB-8A5873F3CE5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBA21BD1-389A-45F5-BEEB-8A5873F3CE5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBA21BD1-389A-45F5-BEEB-8A5873F3CE5E}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{BBA21BD1-389A-45F5-BEEB-8A5873F3CE5E}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
